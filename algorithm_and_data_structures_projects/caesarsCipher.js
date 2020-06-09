@@ -1,3 +1,5 @@
+//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher
+
 function rot13(str) {
     const regExp = /[A-Z]/g;
     return [...str].map((letter) => 
@@ -9,6 +11,3 @@ function rot13(str) {
             .join("")
 
   }
-
-
-  console.log(rot13("SERR PBQR PNZC"));
