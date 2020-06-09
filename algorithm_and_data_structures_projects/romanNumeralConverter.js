@@ -21,7 +21,7 @@ function convertToRoman(input) {
         for (let i = 0; i < rept; i++){
             str += syms[m];
         }
-        base = base % nums[m];
+        base %= nums[m];
     }
     return str;
    }
